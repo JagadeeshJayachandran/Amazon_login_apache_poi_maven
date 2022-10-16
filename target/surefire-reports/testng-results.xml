@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-16T15:21:39Z" name="Suite" finished-at="2022-10-16T15:23:14Z" duration-ms="94564">
+    <groups>
+    </groups>
+    <test started-at="2022-10-16T15:21:39Z" name="Test" finished-at="2022-10-16T15:23:14Z" duration-ms="94564">
+      <class name="com.mycompany.app.Testartifact.AppTest">
+        <test-method is-config="true" signature="loginpage(java.lang.String)[pri:0, instance:com.mycompany.app.Testartifact.AppTest@133e16fd]" started-at="2022-10-16T15:21:40Z" name="loginpage" finished-at="2022-10-16T15:22:19Z" duration-ms="39402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.co.uk/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.mycompany.app.Testartifact.AppTest@133e16fd]" started-at="2022-10-16T15:22:19Z" name="login" data-provider="Data" finished-at="2022-10-16T15:22:31Z" duration-ms="11924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8939374601]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hari@1987]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.mycompany.app.Testartifact.AppTest@133e16fd]" started-at="2022-10-16T15:22:31Z" name="logout" finished-at="2022-10-16T15:22:32Z" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="loginpage(java.lang.String)[pri:0, instance:com.mycompany.app.Testartifact.AppTest@133e16fd]" started-at="2022-10-16T15:22:32Z" name="loginpage" finished-at="2022-10-16T15:23:05Z" duration-ms="33336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.co.uk/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.mycompany.app.Testartifact.AppTest@133e16fd]" started-at="2022-10-16T15:23:05Z" name="login" data-provider="Data" finished-at="2022-10-16T15:23:14Z" duration-ms="8885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[555222]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9865223398]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.mycompany.app.Testartifact.AppTest@133e16fd]" started-at="2022-10-16T15:23:14Z" name="logout" finished-at="2022-10-16T15:23:14Z" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.mycompany.app.Testartifact.AppTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

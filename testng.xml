@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="URL" value="https://google.com"></parameter>
+<parameter name="url" value="https://www.amazon.co.uk/"/>
+<parameter name="username" value="8939374601"/>
+<parameter name="password" value="Hari@1987"/>
+  <test thread-count="5" name="Test">
+      <classes>
+               <class name="com.mycompany.app.Testartifact.AppTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

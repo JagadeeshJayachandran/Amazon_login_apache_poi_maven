@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="password" value="Hari@1987"/>
+  <parameter name="URL" value="https://google.com"/>
+  <parameter name="url" value="https://www.amazon.com"/>
+  <parameter name="username" value="8939374601"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.mycompany.app.Testartifact.AppTest">
+        <methods>
+          <include name="loginpage"/>
+          <include name="login" invocation-numbers="0 1"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.mycompany.app.Testartifact.AppTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
